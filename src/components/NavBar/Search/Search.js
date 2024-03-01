@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Search.module.css";
+import * as styles from "./Search.module.css";
 import SearchIcon from "jsx:../../../assets/searchIcon.svg";
 
 const Search = ({ placeholder }) => {

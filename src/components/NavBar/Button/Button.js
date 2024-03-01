@@ -1,4 +1,4 @@
-import styles from "./Button.module.css";
+import * as styles from "./Button.module.css";
 
 export const Button = ({ children }) => {
   return <div className={styles.btn}>{children}</div>;

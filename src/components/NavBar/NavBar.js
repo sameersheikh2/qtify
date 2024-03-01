@@ -1,6 +1,6 @@
 import { Button } from "./Button/Button";
 import Logo from "./Logo/Logo";
-import styles from "./NavBar.module.css";
+import  * as styles from "./NavBar.module.css";
 import Search from "./Search/Search";
 const NavBar = () => {
   return (
