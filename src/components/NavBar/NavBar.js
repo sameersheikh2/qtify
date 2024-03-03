@@ -19,7 +19,7 @@
 import React from "react";
 import Button from "./Button/Button";
 import Search from "./Search/Search";
-import styles from "./Navbar.module.css";
+import styles from "./NavBar.module.css";
 import LogoImage from "../../assets/Logo.png";
 
 export default function Navbar() {
