@@ -1,11 +1,13 @@
 import { Button } from "./Button/Button";
-import Logo from "./Logo/Logo";
-import  * as styles from "./NavBar.module.css";
+import Logo from "../../assets/logo.png";
+import * as styles from "./NavBar.module.css";
 import Search from "./Search/Search";
 const NavBar = () => {
   return (
     <nav className={styles.navBar}>
-      <Logo />
+      <div className={styles.logoDiv}>
+        <img src={Logo} alt="logo" width={67} />
+      </div>
       <Search placeholder="Search a album of your choice" />
       <Button children="GIVE FEEDBACK" />
     </nav>
