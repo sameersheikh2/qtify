@@ -22,3 +22,14 @@ body {
   color: #ffffff;
   overflow-x: hidden;
 }
+
+img,
+svg {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
